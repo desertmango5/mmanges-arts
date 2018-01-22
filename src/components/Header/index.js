@@ -5,8 +5,8 @@ import logo from '../../../static/logos/mm-arts-logo.png'
 
 const Header = () => (
   <div className={s.header}>
-    <Link to="/" className={s.logo}>
-      <img src={logo} alt="logo" />
+    <Link to="/" className={s.logo__link}>
+      <img src={logo} alt="logo" className={s.logo} />
     </Link>
     <div className={s.menu}>
       <Link to="/" className={s.menu__item}>Home</Link>

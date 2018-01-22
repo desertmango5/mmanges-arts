@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  height: 200px;
+  margin: 50px 0 0 0;
+  background: #eadcd0;
+  align-content: center;
+  box-shadow: 3px 0 5px #999;
+  grid-gap: 20px;
+}
+
+.footer__icons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;  
+}
+
+.footer__icon {
+  border-radius: 3px;
+}
+
+.footer__location {
+  font-size: 2rem;
+  // padding: 20px 0;
+}
+
+.footer__copyright {
+  font-size: 1rem;
+}

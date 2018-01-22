@@ -1,23 +1,31 @@
 html {
   color: #777777;
   font-size: 10px;
-  margin: 30px;
+  font-family: 'Open Sans';
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 1px #ccc
 }
 
 h1 {
   font: {
     size: 3rem;
+    family: 'Happy Monkey';
   }
+  letter-spacing: 0.1rem;
 }
 
 h3 {
   font: {
     size: 2.25rem;
+    family: 'Happy Monkey';
   }
+  letter-spacing: 0.1rem;
 }
 
 p {
   font: {
     size: 1.5rem;
   }
+  letter-spacing: 0.08rem;
+  line-height: 2.2rem;
 }

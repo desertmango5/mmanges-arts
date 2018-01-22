@@ -11,7 +11,10 @@
     "gatsby-plugin-sass": "^1.0.15",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-source-graphcms": "0.0.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typeface-chewy": "0.0.44",
+    "typeface-happy-monkey": "0.0.44",
+    "typeface-open-sans": "0.0.45"
   },
   "keywords": [
     "gatsby"

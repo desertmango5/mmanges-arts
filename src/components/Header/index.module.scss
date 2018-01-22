@@ -1,23 +1,25 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 150px 1fr;
   grid-template-rows: 150px;
   max-width: 800px;
   margin: {
     right: auto;
     left: auto;
   }
+  align-items: center;
 }
 
-.logo {
-  height: 150px;
-  width: 150px;
+.logo__link {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
   margin-left: 2rem;
-  display: flex;
+}
+
+.logo {
+  width: 100%;
 }
 
 .menu {
@@ -27,16 +29,17 @@
   grid-row-end: 2;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
-  padding: 3rem;
 }
 
 .menu__item {
   margin: {
-    left: 2.5rem;
+    right: 2.5rem;
   }
   font: {
     size: 1.5rem;
+    family: 'Happy Monkey';
   }
   text-decoration: none;
 }

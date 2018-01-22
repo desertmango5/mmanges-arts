@@ -4,8 +4,6 @@
   grid-column-gap: 50px;
   margin: 0 auto;
   padding: 0 40px;
-  // grid-template-columns: 1fr 1fr 1fr;
-  // grid-template-rows: repeat(4, minmax(200px, auto));
   grid-template-areas: 
     "head1      head1     head1"
     "content1   content1  image1"

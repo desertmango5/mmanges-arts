@@ -1,4 +1,5 @@
 require('dotenv').config({ path: './.env.development' })
+const autoprefixer = require('autoprefixer')
 
 module.exports = {
   siteMetadata: {
@@ -7,12 +8,18 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [autoprefixer()],
+        precision: 8,
       },
     },
   ],
